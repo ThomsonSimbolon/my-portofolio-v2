@@ -1,11 +1,56 @@
 export default function Projects() {
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "Blog Management System",
       description:
-        "A full-featured online shopping platform with payment integration, product management, and user authentication.",
-      technologies: ["Next.js", "TypeScript", "Stripe", "MySQL"],
+        "A comprehensive content management system for creating, editing, and managing blog posts with rich text editor and category management.",
+      technologies: ["Next.js", "TypeScript", "Prisma", "PostgreSQL"],
       gradient: "from-primary-500 to-blue-500",
+      icon: (
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
+        />
+      ),
+    },
+    {
+      title: "E-Learning Frontend",
+      description:
+        "An interactive online learning platform with course management, video streaming, real-time progress tracking, and a student dashboard, featuring a modern responsive interface.",
+      technologies: ["React", "TypeScript", "Tailwind CSS", "Redux"],
+      gradient: "from-accent-500 to-purple-500",
+      icon: (
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
+        />
+      ),
+    },
+    {
+      title: "Application AI Psychology",
+      description:
+        "An AI-powered psychological assessment application that provides mental health analysis and personalized recommendations using machine learning. ",
+      technologies: ["Python", "TensorFlow", "Flask", "React"],
+      gradient: "from-pink-500 to-rose-500",
+      icon: (
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+        />
+      ),
+    },
+    {
+      title: "Modern Store",
+      description:
+        "A modern e-commerce platform with advanced product filtering, shopping cart, payment integration, and order management system. ",
+      technologies: ["Next.js", "TypeScript", "Stripe", "MongoDB"],
+      gradient: "from-primary-500 to-pink-500",
       icon: (
         <path
           strokeLinecap="round"
@@ -15,48 +60,123 @@ export default function Projects() {
         />
       ),
     },
-    { 
-      title: "Task Management App",
+    {
+      title: "Open AI Application",
       description:
-        "A collaborative task management application with real-time updates, team spaces, and progress tracking.",
-      technologies: ["React", "Node.js", "Socket.io", "MongoDB"],
+        "An intelligent application leveraging OpenAI API for natural language processing, text generation, and conversational AI capabilities. ",
+      technologies: ["React", "Node.js", "OpenAI API", "Express"],
+      gradient: "from-accent-500 to-blue-500",
+      icon: (
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"
+        />
+      ),
+    },
+    {
+      title: "Chatbot AI",
+      description:
+        "An intelligent conversational chatbot with natural language understanding, context awareness, and multi-language support for customer service.",
+      technologies: ["Python", "TensorFlow", "Flask", "WebSocket"],
+      gradient: "from-primary-500 to-purple-500",
+      icon: (
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
+        />
+      ),
+    },
+    {
+      title: "E-Course Application",
+      description:
+        "I have developed various websites using React + ViteJS and React Bootstrap. This e-learning platform offers comprehensive course management.",
+      technologies: ["React", "ViteJS", "React Bootstrap"],
+      gradient: "from-primary-500 to-blue-500",
+      icon: (
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
+        />
+      ),
+    },
+    {
+      title: "KMS Application",
+      description:
+        "I have developed various websites using HTML, CSS, JavaScript, CodeIgniter 4. The Knowledge Management System provides a centralized platform.",
+      technologies: ["HTML", "CSS", "JavaScript", "CodeIgniter 4"],
       gradient: "from-accent-500 to-purple-500",
       icon: (
         <path
           strokeLinecap="round"
           strokeLinejoin="round"
           strokeWidth={2}
-          d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
         />
       ),
     },
     {
-      title: "Weather Dashboard",
+      title: "Public Complaint Application",
       description:
-        "An interactive weather dashboard with forecasts, maps, and location-based weather alerts.",
-      technologies: ["React", "Tailwind", "OpenWeather API", "Charts.js"],
+        "I have developed various websites using HTML, CSS, JavaScript, PHP, CodeIgniter. This public service platform enables citizens to submit, track, and manage complaints.",
+      technologies: ["HTML", "CSS", "JavaScript", "PHP", "CodeIgniter"],
       gradient: "from-pink-500 to-rose-500",
       icon: (
         <path
           strokeLinecap="round"
           strokeLinejoin="round"
           strokeWidth={2}
-          d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"
+          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
         />
       ),
     },
     {
-      title: "Social Media Analytics",
+      title: "Movies Application",
       description:
-        "Analytics platform for tracking social media metrics, engagement rates, and audience insights.",
-      technologies: ["Vue.js", "Python", "FastAPI", "D3.js"],
+        "I have developed various websites using ReactJS and Bootstrap. The movie database application provides comprehensive film information, user ratings, watchlists, and personalized.",
+      technologies: ["ReactJS", "Bootstrap"],
       gradient: "from-primary-500 to-pink-500",
       icon: (
         <path
           strokeLinecap="round"
           strokeLinejoin="round"
           strokeWidth={2}
-          d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+          d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"
+        />
+      ),
+    },
+    {
+      title: "SIMS Applications",
+      description:
+        "I have developed various websites using JavaScript, CodeIgniter 4 and JWT. The Student Information Management System streamlines academic operations with features for student enrollment.",
+      technologies: ["JavaScript", "CodeIgniter 4", "JWT"],
+      gradient: "from-accent-500 to-blue-500",
+      icon: (
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+        />
+      ),
+    },
+    {
+      title: "Go-Finance Application",
+      description:
+        "I have developed various websites using React + ViteJS, TailwindCSS and Rest API. This financial management application offers comprehensive budgeting tools, expense tracking, financial analytics, and transaction management.",
+      technologies: ["React", "ViteJS", "TailwindCSS", "Rest API"],
+      gradient: "from-primary-500 to-purple-500",
+      icon: (
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
         />
       ),
     },

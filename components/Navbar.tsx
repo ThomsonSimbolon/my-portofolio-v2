@@ -23,7 +23,10 @@ export default function Navbar() {
     { href: "#contact", label: "Contact" },
   ];
 
-  const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+  const scrollToSection = (
+    e: React.MouseEvent<HTMLAnchorElement>,
+    href: string
+  ) => {
     e.preventDefault();
     const element = document.querySelector(href);
     if (element) {
