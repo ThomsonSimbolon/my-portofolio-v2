@@ -49,6 +49,13 @@
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+/* Glassmorphism effect - dark variant for mobile menu */
+.glass-dark {
+  background: rgba(15, 23, 42, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
 /* Gradient text */
 .gradient-text {
   @apply bg-gradient-to-r from-primary-400 via-accent-400 to-pink-400 bg-clip-text text-transparent;
