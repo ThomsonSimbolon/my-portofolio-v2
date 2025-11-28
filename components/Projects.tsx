@@ -4,7 +4,7 @@ export default function Projects() {
       title: "E-Commerce Platform",
       description:
         "A full-featured online shopping platform with payment integration, product management, and user authentication.",
-      technologies: ["Next.js", "TypeScript", "Stripe", "PostgreSQL"],
+      technologies: ["Next.js", "TypeScript", "Stripe", "MySQL"],
       gradient: "from-primary-500 to-blue-500",
       icon: (
         <path
@@ -15,7 +15,7 @@ export default function Projects() {
         />
       ),
     },
-    {
+    { 
       title: "Task Management App",
       description:
         "A collaborative task management application with real-time updates, team spaces, and progress tracking.",

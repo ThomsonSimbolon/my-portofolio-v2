@@ -15,9 +15,9 @@ export default function Skills() {
       color: "from-accent-500 to-purple-500",
       skills: [
         { name: "Node.js", level: 85 },
-        { name: "Express", level: 80 },
+        { name: "PHP", level: 90 },
         { name: "Python", level: 75 },
-        { name: "PostgreSQL", level: 82 },
+        { name: "MySQL", level: 82 },
       ],
     },
     {
@@ -25,9 +25,9 @@ export default function Skills() {
       color: "from-pink-500 to-rose-500",
       skills: [
         { name: "Git", level: 90 },
-        { name: "Docker", level: 75 },
-        { name: "AWS", level: 70 },
-        { name: "Figma", level: 85 },
+        { name: "Docker", level: 50 },
+        { name: "GCS", level: 70 },
+        { name: "VSCode", level: 90 },
       ],
     },
   ];
