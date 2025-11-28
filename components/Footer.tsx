@@ -7,7 +7,9 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-center md:text-left">
             <p className="text-gray-400">
-              © {currentYear} <span className="gradient-text font-semibold">Your Name</span>. All rights reserved.
+              © {currentYear}{" "}
+              <span className="gradient-text font-semibold">Thomson</span>. All
+              rights reserved.
             </p>
           </div>
 
@@ -41,7 +43,7 @@ export default function Footer() {
 
         <div className="mt-6 text-center">
           <p className="text-gray-500 text-sm">
-            Built with ❤️ using Next.js & TailwindCSS
+            Build with using Next.js & TailwindCSS
           </p>
         </div>
       </div>
