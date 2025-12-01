@@ -240,7 +240,9 @@ export default function Projects() {
                 >
                   View Project
                 </button>
-                <button className="px-4 py-2 glass rounded-lg hover:scale-105 transition-transform">
+                <button
+                  className={`px-4 py-2 bg-gradient-to-r ${project.gradient} rounded-lg hover:scale-105 transition-transform`}
+                >
                   <svg
                     className="w-5 h-5 text-white"
                     fill="currentColor"
