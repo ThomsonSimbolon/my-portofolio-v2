@@ -242,7 +242,7 @@ export default function Projects() {
                 </button>
                 <button className="px-4 py-2 glass rounded-lg hover:scale-105 transition-transform">
                   <svg
-                    className="w-5 h-5"
+                    className="w-5 h-5 text-white"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                   >

@@ -49,7 +49,7 @@ export default function Navbar() {
           onClick={(e) => scrollToSection(e, "#home")}
           className="text-2xl font-bold gradient-text hover:scale-105 transition-transform cursor-pointer"
         >
-          Portfolio.
+          Portfolio
         </a>
 
         {/* Desktop Menu */}
