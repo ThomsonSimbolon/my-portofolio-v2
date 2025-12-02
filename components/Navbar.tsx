@@ -100,7 +100,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <div className="md:hidden bg-white/5 backdrop-blur-md border border-white/10 mt-4 mx-6 rounded-lg p-4 animate-fade-in shadow-lg">
+        <div className="md:hidden glass-dark mt-4 mx-6 rounded-lg p-4 animate-fade-in">
           <div className="flex flex-col gap-4">
             {navLinks.map((link) => (
               <a
