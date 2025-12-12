@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import HeroProfile from "@/app/assets/images/Hero-Profile.png";
 
 export default function HeroSection() {
   const [text, setText] = useState("");
@@ -163,11 +162,12 @@ export default function HeroSection() {
                 <div className="w-full h-full rounded-3xl bg-slate-900 flex items-center justify-center overflow-hidden">
                   {/* Profile Image */}
                   <Image
-                    src={HeroProfile}
+                    src="/images/Hero-Profile.png"
                     alt="Profile Picture"
+                    width={320}
+                    height={400}
                     className="w-full h-full object-cover rounded-3xl"
                     priority
-                    placeholder="blur"
                   />
                 </div>
               </div>
