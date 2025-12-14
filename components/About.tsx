@@ -33,9 +33,11 @@ export default function About() {
               <h3 className="text-2xl font-bold">Who I Am</h3>
             </div>
             <p className="text-gray-300 leading-relaxed">
-              I&apos;m a passionate developer who loves creating elegant solutions
-              to complex problems. With a strong foundation in both frontend and
-              backend development, I specialize in building modern web
+              I&apos;m a Full Stack Developer and a recent graduate in
+              Informatics Engineering from Universitas Lancang Kuning.
+              Passionate about creating elegant solutions to complex problems, I
+              excel in both frontend (React, Next.js, TypeScript) and backend
+              (PHP, Node.js, Python) development, building modern full-stack
               applications that provide exceptional user experiences.
             </p>
           </div>
@@ -61,10 +63,13 @@ export default function About() {
               <h3 className="text-2xl font-bold">My Journey</h3>
             </div>
             <p className="text-gray-300 leading-relaxed">
-              Over the years, I&apos;ve worked on numerous projects ranging from
-              small business websites to large-scale enterprise applications. I
-              continuously learn and adapt to new technologies to stay at the
-              forefront of web development.
+              Starting from my vocational high school background in Electronics
+              Engineering and culminating with my Bachelor&apos;s degree in
+              Informatics Engineering (2024), I&apos;ve developed diverse
+              projects including AI-powered applications, e-commerce platforms,
+              management systems, and e-learning solutions. I continuously learn
+              and adapt to new technologies, combining both frontend and backend
+              expertise to deliver complete solutions.
             </p>
           </div>
 
@@ -117,9 +122,9 @@ export default function About() {
             </div>
             <p className="text-gray-300 leading-relaxed">
               My goal is to leverage technology to create impactful solutions
-              that improve people&apos;s lives. Whether it&apos;s through innovative web
-              applications or collaborative team efforts, I&apos;m driven to make a
-              positive impact.
+              that improve people&apos;s lives. Whether it&apos;s through
+              innovative web applications or collaborative team efforts,
+              I&apos;m driven to make a positive impact.
             </p>
           </div>
         </div>
