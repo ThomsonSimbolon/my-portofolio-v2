@@ -14,37 +14,10 @@ export default function Footer() {
           </div>
 
           <div className="flex gap-6">
-            <a
-              href="#home"
-              className="text-gray-400 hover:text-white transition-colors"
-            >
-              Home
-            </a>
-            <a
-              href="#about"
-              className="text-gray-400 hover:text-white transition-colors"
-            >
-              About
-            </a>
-            <a
-              href="#projects"
-              className="text-gray-400 hover:text-white transition-colors"
-            >
-              Projects
-            </a>
-            <a
-              href="#contact"
-              className="text-gray-400 hover:text-white transition-colors"
-            >
-              Contact
-            </a>
-          </div>
-        </div>
-
-        <div className="mt-6 text-center">
-          <p className="text-gray-500 text-sm">
+              <p className="text-gray-500 text-sm">
             Build with using Next.js & TailwindCSS
           </p>
+          </div>
         </div>
       </div>
     </footer>
