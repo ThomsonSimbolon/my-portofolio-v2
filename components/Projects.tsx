@@ -198,7 +198,7 @@ export default function Projects() {
     {
       title: "SIMS Applications",
       description:
-        "I have developed various websites using JavaScript, CodeIgniter 4 and JWT. The Student Information Management System streamlines academic operations with features for student enrollment.",
+        "I have developed various websites using JavaScript, CodeIgniter 4 and JWT. The Student Information Management System streamlines academic operations with features for student.",
       technologies: ["JavaScript", "CodeIgniter 4", "JWT"],
       gradient: "from-accent-500 to-blue-500",
       icon: (
