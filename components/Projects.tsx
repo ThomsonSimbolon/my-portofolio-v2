@@ -1,6 +1,51 @@
 export default function Projects() {
   const projects = [
     {
+      title: "MPM Agile Tools",
+      description:
+        "A comprehensive project management solution designed for agile teams, featuring sprint planning, scrum boards, and real-time collaboration.",
+      technologies: ["Next.js", "Node.js", "Tailwind CSS"],
+      gradient: "from-blue-600 to-primary-400",
+      icon: (
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+        />
+      ),
+    },
+    {
+      title: "Whatsapp Service",
+      description:
+        "A robust WhatsApp integration service for automated messaging and customer support bots, featuring real-time analytics and secure encryption.",
+      technologies: ["Next.js", "Node.js", "WhatsApp API", "WebSockets"],
+      gradient: "from-green-500 to-emerald-500",
+      icon: (
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
+        />
+      ),
+    },
+    {
+      title: "LMS (Learning Management System)",
+      description:
+        "A scalable Learning Management System for educational institutions, supporting course delivery, student tracking, and assessments.",
+      technologies: ["Next.js", "Node.js", "MySQL", "Redis"],
+      gradient: "from-indigo-500 to-purple-500",
+      icon: (
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
+        />
+      ),
+    },
+    {
       title: "Blog Management System",
       description:
         "A comprehensive content management system for creating, editing, and managing blog posts with rich text editor and category management.",
@@ -165,21 +210,7 @@ export default function Projects() {
         />
       ),
     },
-    {
-      title: "Go-Finance Application",
-      description:
-        "I have developed various websites using React + ViteJS, TailwindCSS and Rest API. This financial management application offers comprehensive budgeting tools, expense tracking, financial analytics, and transaction management.",
-      technologies: ["React", "ViteJS", "TailwindCSS", "Rest API"],
-      gradient: "from-primary-500 to-purple-500",
-      icon: (
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth={2}
-          d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-        />
-      ),
-    },
+
   ];
 
   return (
